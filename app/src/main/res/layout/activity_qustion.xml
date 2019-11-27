@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QustionActivity">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+        />
+
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+            />
+
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+            />
+
+        <Spinner
+            android:id="@+id/spinner12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/nameView12"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="원하는 음식 타입"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView11"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="매움의 정도"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView10"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="원하는 가격"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView9"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="국물을 원하시나요?"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView8"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="패스트푸드를 원하시나요?"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView7"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="고기를 원하시나요?"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView6"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="밥을 원하신가요?"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView5"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="뜨거운것을 원하시나요?"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="식사를 원하시나요?"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="튀김입니까?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/recommend"
+        android:layout_width="181dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="getData"
+        android:text="메뉴추천보기"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="181dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="back"
+        android:text="뒤로"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.529" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

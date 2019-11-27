@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <Button
+        android:id="@+id/recommend"
+        android:layout_width="181dp"
+        android:layout_height="107dp"
+        android:onClick="postdata"
+        android:text="저장"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="181dp"
+        android:layout_height="107dp"
+        android:onClick="back"
+        android:text="뒤로"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:privateImeOptions="defaultInputmode=korean"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/type"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/level"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/level"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/YesOrNo"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/YesOrNo"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/YesOrNo"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/YesOrNo"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/YesOrNo"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/YesOrNo"/>
+            />
+
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/YesOrNo"/>
+            />
+
+
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/nameView12"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="음식 이름 :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView11"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="음식 타입 :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView10"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="음식 강도(매움) :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView9"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="음식 가격"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView8"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="국물이 있나요?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView7"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="패스트푸드 입니까?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView6"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="고기가 있나요?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView5"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="밥(No=밀)입니까?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="뜨겁습니까?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="식사입니까?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="튀김입니까?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
