@@ -16,7 +16,7 @@
 * 개발 툴 : Android Studio
 * 개발 언어 : JAVA, Python
 * 플랫폼 : Web Server, Android
-* 프레임워크 : Django (ubuntu)
+* 프레임워크 : Django (os : ubuntu)
 * 사용API : REST API
 
 # 개발한 기능
